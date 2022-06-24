@@ -1,0 +1,32 @@
+Anotações aula de Git e GitHub
+
+Comandos por terminais
+
+windows => cmd (abre terminar do windows)
+dir(windows) ls(linux) => abri uma lista de diretórios
+cd / - no local da barra digitar a pasta desejada (windows e linux) => navegar local especifico
+cd ..(windows e linux) => voltar pasta c
+cls(windows) clear(linux) => limpar tela
+mkdir workspace (windows e linux) => cria pasta
+echo > "nomeDoArquivo.extenssão" (windows e linux) => criar arquivo
+del "nome da pastar" (windows) => deletar arquivos da pasta
+rmdir "nome da pasta" /S /Q (windows) => remover a pasta
+rm -rf "nome da pasta" (linux) =>deletar toda a pasta
+
+
+Git Bash
+
+ssh-keygen -t ed25519 -C "email"
+cat id_ed25519.pub
+
+Comandos git
+
+git init
+git config --global user.email "digitar email"
+git config --global user.name Perkles
+
+
+git add *
+
+git commit -m "commit inicial"
+
